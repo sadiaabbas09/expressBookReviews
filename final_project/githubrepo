@@ -1,0 +1,10 @@
+command: curl -s https://api.github.com/repos/sadiaabbas09/expressBookReviews | grep -A 8 '"parent"'
+Output: "parent": {
+"id": 533628036,
+"node_id": "R_kgDOH86EhA",
+"name": "expressBookReviews",
+"full_name": "ibm-developer-skills-network/expressBookReviews",
+"private": false,
+"owner": {
+"login": "ibm-developer-skills-network",
+"id": 70551872,
